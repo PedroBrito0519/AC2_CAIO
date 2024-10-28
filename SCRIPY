@@ -38,18 +38,16 @@ console.log(arredondamento2);
 console.log(arredondamento3);
 console.log(arredondamento4);
 console.log(arredondamento5);
-//4 – (1 ponto) Faça um programa que receba seu nome completo(preencha com o seu nome verdadeiro) e printe no console quantas letras ele possui. Lembre-se que você deverá fazer uma condição para que ele não conte os espaços. 
-let frase = "Pedro Henrique de Brito Caldas";
-let palavras = frase.split(" ");
- 
+//4 TERMINEI AS 8:45 ESSE
+let frase = "Pedro Henrique de Brito Caldas"; 
+let palavras = frase.split(" "); 
 let conta = 0;
  
 palavras.forEach(function(palavra) {
-    conta++;
+    conta += palavra.length; 
 });
  
 console.log(conta); 
- 
 //5 
 let numerosOriginais = [4, 5, 6];
 let novosNumeros = [1, 2, 3];
