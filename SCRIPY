@@ -1,0 +1,61 @@
+
+
+//1
+produto = ["Celuar", "Mouse", "Monitor", "Notebbok", "Impressora", "Teclado", "Telveisão", "Fone", "Webcam", "HD Externo"];
+
+produto[0] = 'Celular'
+produto[3] = 'Notebook'
+produto[6] = 'Televisão'
+console.log(produto)
+
+//2  
+let numbers = [2, 5, 8, 13, 16, 21];
+let impares = [];
+ 
+numbers.forEach(function (num) {
+    if (num % 2 !== 0) {
+               impares.push(num * (Math.floor(Math.random() * 10) + 1));
+    } else {
+        impares.push(num);
+    }
+});
+ 
+console.log(impares);
+ 
+ 
+//3
+
+let number = [1.2, 3.7, 4.5, 6.1, 8.9];
+var arredondamento1 = Math.ceil(number[0])
+var arredondamento2 = Math.ceil(number[1])
+var arredondamento3 = Math.ceil(number[2])
+var arredondamento4 = Math.ceil(number[3]) 
+var arredondamento5 = Math.ceil(number[4])
+
+
+console.log(arredondamento1);
+console.log(arredondamento2);
+console.log(arredondamento3);
+console.log(arredondamento4);
+console.log(arredondamento5);
+//4 – (1 ponto) Faça um programa que receba seu nome completo(preencha com o seu nome verdadeiro) e printe no console quantas letras ele possui. Lembre-se que você deverá fazer uma condição para que ele não conte os espaços. 
+let frase = "Pedro Henrique de Brito Caldas";
+let palavras = frase.split(" ");
+ 
+let conta = 0;
+ 
+palavras.forEach(function(palavra) {
+    conta++;
+});
+ 
+console.log(conta); 
+ 
+//5 
+let numerosOriginais = [4, 5, 6];
+let novosNumeros = [1, 2, 3];
+ 
+
+novosNumeros.forEach(num => numerosOriginais.unshift(num));
+ 
+console.log(numerosOriginais); 
+ 
